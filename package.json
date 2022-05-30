@@ -1,0 +1,16 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test-dashboard": "npx cypress run --record --key 602bad84-7a7f-4a84-beea-f37850cb73d3"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "mochawesome": "^7.1.3"
+  }
+}
